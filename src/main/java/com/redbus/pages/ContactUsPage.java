@@ -19,13 +19,13 @@ public class ContactUsPage {
 	}
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Contact Us')]")
-	public WebElement contactUsnav;
+	private WebElement contactUsnav;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Click Here')]")
-	public WebElement clickhere;
+	private WebElement clickhere;
 
 	@FindBy(how = How.XPATH, using = "//i[@class='icon-close']")
-	public WebElement closePopUp;
+	private WebElement closePopUp;
 
 	public void contactUsButton() throws Throwable {
 		contactUsnav.sendKeys(Keys.ENTER);

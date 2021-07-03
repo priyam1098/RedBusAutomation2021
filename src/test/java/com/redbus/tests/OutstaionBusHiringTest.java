@@ -9,7 +9,7 @@ import com.redbus.pages.TravellerBusHiringPage;
 
 import utils.CommonUtils;
 
-public class TravellerBusHiringTest extends BaseTest {
+public class OutstaionBusHiringTest extends BaseTest {
 	private String sheetName = "RedbusFunctionality";
 
 	@Test
@@ -17,24 +17,33 @@ public class TravellerBusHiringTest extends BaseTest {
 		extentTest = extent.startTest("Outstation hiring scenario test");
 		TravellerBusHiringPage bushire = new TravellerBusHiringPage(driver);
 		String testcase = "BusHiringOutstation";
-		
+
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
+		String fromWhen = data.get("fromWhen");
+		String TillWhen = data.get("TillWhen");
+		String passenger = data.get("passenger");
+		String from = data.get("From");
+		String To = data.get("To");
+		      
+		
 
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		bushire.naviToBusHire();
-		Thread.sleep(2000);
-
 		bushire.clickOnOutstationMenu();
-		
-		Assert.assertEquals("Bus Hire: Rent Volvo, AC buses, Mini Buses, Tempo Travellers & Innova Cars - Book Online", driver.getTitle());
+		bushire.enterPickAddress(from);
+		bushire.enterDestinationAddress(To);
+		bushire.enterDateAndTimeForOutstation(fromWhen, TillWhen);
+		bushire.enterTotalPassenger(passenger);
+		bushire.clickonProceed();
+
+		Assert.assertEquals("Fill Contact Details",bushire.nexttitle.getText());
 
 		logger.info("Outstation hiring Case Passed");
 
-		Thread.sleep(1000);
+		Thread.sleep(9000);
 	}
-
 
 }

@@ -10,7 +10,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class BusAllOperatorsPage {
-	
+
 	WebDriver driver;
 
 	public BusAllOperatorsPage(WebDriver driver) {
@@ -18,20 +18,13 @@ public class BusAllOperatorsPage {
 		this.driver = driver;
 	}
 
-	
-
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'All Operators >')]")
-	public WebElement operators;
-
-//	@FindBy(how = How.XPATH, using = "//a[contains(text(),'redbus')]")
-//	public WebElement home;
+	private WebElement operators;
 
 	public void all_operators() {
 		operators.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
 	}
-
-	
 
 }

@@ -2,47 +2,47 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48933" started-at="2021-07-01T15:06:26Z" finished-at="2021-07-01T15:07:15Z">
+  <suite name="Default suite" duration-ms="37054" started-at="2021-07-03T06:46:57Z" finished-at="2021-07-03T06:47:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48933" started-at="2021-07-01T15:06:26Z" finished-at="2021-07-01T15:07:15Z">
-      <class name="com.redbus.tests.TravellerBusHiringTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7]" name="setExtent" is-config="true" duration-ms="255" started-at="2021-07-01T15:06:26Z" finished-at="2021-07-01T15:06:26Z">
+    <test name="Default test" duration-ms="37054" started-at="2021-07-03T06:46:57Z" finished-at="2021-07-03T06:47:34Z">
+      <class name="com.redbus.tests.BusAllOperatorsTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7]" name="setExtent" is-config="true" duration-ms="158" started-at="2021-07-03T06:46:57Z" finished-at="2021-07-03T06:46:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7]" name="intializeWebdriver" is-config="true" duration-ms="4059" started-at="2021-07-01T15:06:26Z" finished-at="2021-07-01T15:06:30Z">
+        <test-method status="PASS" signature="intializeWebdriver()[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7]" name="intializeWebdriver" is-config="true" duration-ms="3634" started-at="2021-07-03T06:46:57Z" finished-at="2021-07-03T06:47:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intializeWebdriver -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7]" name="openBrowser" is-config="true" duration-ms="25823" started-at="2021-07-01T15:06:30Z" finished-at="2021-07-01T15:06:56Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7]" name="openBrowser" is-config="true" duration-ms="18001" started-at="2021-07-03T06:47:00Z" finished-at="2021-07-03T06:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="BusHiringOutstation()[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7]" name="BusHiringOutstation" duration-ms="17909" started-at="2021-07-01T15:06:56Z" finished-at="2021-07-01T15:07:14Z">
+        <test-method status="PASS" signature="all_bus_operators()[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7]" name="all_bus_operators" duration-ms="9359" started-at="2021-07-03T06:47:18Z" finished-at="2021-07-03T06:47:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BusHiringOutstation -->
-        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7]" name="attachScreenShot" is-config="true" duration-ms="16" started-at="2021-07-01T15:07:14Z" finished-at="2021-07-01T15:07:14Z">
+        </test-method> <!-- all_bus_operators -->
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7]" name="attachScreenShot" is-config="true" duration-ms="14" started-at="2021-07-03T06:47:28Z" finished-at="2021-07-03T06:47:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=BusHiringOutstation status=SUCCESS method=TravellerBusHiringTest.BusHiringOutstation()[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=all_bus_operators status=SUCCESS method=BusAllOperatorsTest.all_bus_operators()[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7]" name="closeBrowser" is-config="true" duration-ms="1079" started-at="2021-07-01T15:07:14Z" finished-at="2021-07-01T15:07:15Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7]" name="closeBrowser" is-config="true" duration-ms="6009" started-at="2021-07-03T06:47:28Z" finished-at="2021-07-03T06:47:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.TravellerBusHiringTest@68e5eea7]" name="endReport" is-config="true" duration-ms="695" started-at="2021-07-01T15:07:15Z" finished-at="2021-07-01T15:07:16Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.BusAllOperatorsTest@68e5eea7]" name="endReport" is-config="true" duration-ms="777" started-at="2021-07-03T06:47:34Z" finished-at="2021-07-03T06:47:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.redbus.tests.TravellerBusHiringTest -->
+      </class> <!-- com.redbus.tests.BusAllOperatorsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

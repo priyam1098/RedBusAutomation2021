@@ -18,10 +18,10 @@ public class PartnerWebsitesPage {
 	}
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Goibibo')]")
-	public WebElement goibibosite;
+	private WebElement goibibosite;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Makemytrip')]")
-	public WebElement makemytrip;
+	private WebElement makemytrip;
 
 	public void goToGoibiboSite() {
 		goibibosite.click();

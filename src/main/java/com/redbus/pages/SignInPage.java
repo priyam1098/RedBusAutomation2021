@@ -17,31 +17,45 @@ public class SignInPage {
 	}
 
 	@FindBy(how = How.ID, using = "signin-block")
-	public WebElement signin_button;
+	private WebElement signin_button;
 
 	@FindBy(how = How.ID, using = "signInLink")
-	public WebElement clicksignin;
+	private WebElement clicksignin;
 
 	@FindBy(how = How.XPATH, using = "//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")
-	public WebElement googlesignin;
+	private WebElement googlesignin;
 
 	@FindBy(how = How.XPATH, using = "//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")
-	public WebElement popupclose;
+	private WebElement popupclose;
+	
+	@FindBy(how = How.ID, using = "mobileNoInp")
+	private WebElement mobile;
+	
 
 	public void naviSignin() {
 		signin_button.click();
 	}
 
-	public void signinButton()  {
+	public void signinButton() throws Throwable  {
 		clicksignin.click();
-
+		Thread.sleep(3000);
 	}
 
-	public void signIn() {
+//	public void signIn() throws Throwable {
+//		driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));
+//		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[1]/div[8]/div[1]")).click();
+//		Thread.sleep(5000);
+//
+//
+//	}
+	
+	public void enterMobile() throws Throwable  {
 		driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));
-		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[1]/div[8]/div[1]")).click();
+		mobile.sendKeys("1231231231");
+		Thread.sleep(3000);
 
 	}
+	
 
 	public void closePopUp() {
 		// driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));

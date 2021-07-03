@@ -16,20 +16,22 @@ public class MangaingBookingPage {
 	}
 
 	@FindBy(how = How.XPATH, using = "//div[contains(text(),'Manage Booking')]")
-	public WebElement managebooking;
+	private WebElement managebooking;
 
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Cancel')]")
-	public WebElement clickcancel;
+	private WebElement clickcancel;
 	
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Change Travel Date')]")
-	public WebElement change_travel_date;
+	private WebElement change_travel_date;
 	
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Show My Ticket')]")
-	public WebElement show_ticket ;
+	private WebElement show_ticket ;
 	
 
-	public void mangaeBooking() {
+	public void mangaeBooking() throws Throwable {
 		managebooking.click();
+		Thread.sleep(2000);
+
 
 	}
 

@@ -1,5 +1,6 @@
 package com.redbus.tests;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import org.testng.annotations.Test;
@@ -27,13 +28,12 @@ public class SigninTest extends BaseTest {
 
 		usersignin.naviSignin();
 		usersignin.signinButton();
-		usersignin.signIn();
+		usersignin.enterMobile();
 		usersignin.closePopUp();
-
 		logger.info("Signin Test Case Passed");
 		
 
-		Thread.sleep(9000);
+		Thread.sleep(2000);
 	}
 
 }

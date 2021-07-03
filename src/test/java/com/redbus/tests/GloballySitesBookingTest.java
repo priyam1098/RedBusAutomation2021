@@ -27,7 +27,7 @@ public class GloballySitesBookingTest extends BaseTest {
 
 		country_singapore.singaporeBooking();
 		
-		String page_title= "Singapore Bus tickets online, Singapore Express Bus, Super VIP Coach Booking - redBus";
+		String page_title= data.get("Expected");
 		logger.info("Global website country  functionality Test Case Passed");
 		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);
@@ -46,7 +46,7 @@ public class GloballySitesBookingTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		country_malaysia.MalaysiaBooking();
-		String page_title ="Bus Tickets Online, Ferry Booking | Best Online Bus Booking Platform - redBus Malaysia";
+		String page_title= data.get("Expected");
 		logger.info("Global website country  functionality Test Case Passed");
 		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);
@@ -65,7 +65,7 @@ public class GloballySitesBookingTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 		country_indonesia.indonesiaBooking();
 		
-		String page_title= "Tiket Bus Online | Pesan Tiket Bus - redBus Indonesia";
+		String page_title= data.get("Expected");
 		logger.info("Global website country  functionality Test Case Passed");
 		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);
@@ -84,7 +84,7 @@ public class GloballySitesBookingTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		country_peru.peruBooking();
-		String page_title ="redBus | La forma más fácil de comprar pasajes de bus";
+		String page_title= data.get("Expected");
 		logger.info("Global website country  functionality Test Case Passed");
 		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);
@@ -103,7 +103,7 @@ public class GloballySitesBookingTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		country_colombia.colombiaBooking();
-		String page_title ="Compra Pasajes de Bus Online - redBus Colombia";
+		String page_title= data.get("Expected");
 		logger.info("Global website country  functionality Test Case Passed");
 		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);

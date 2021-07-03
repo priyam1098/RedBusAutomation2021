@@ -4,9 +4,7 @@ import java.util.HashMap;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.redbus.pages.MangaingBookingPage;
-
 import utils.CommonUtils;
 
 public class ManageBookingChangeTravelDateTest extends BaseTest {

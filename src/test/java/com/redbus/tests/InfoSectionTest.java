@@ -47,7 +47,7 @@ public class InfoSectionTest extends BaseTest {
 		info.navitoprivacypolicy();
 
 		logger.info("Info privacyPolicy  Test Case Passed");
-		Assert.assertEquals("https://www.redbus.in/info/privacypolicy", driver.getTitle());
+		Assert.assertEquals("", driver.getTitle());
 
 		Thread.sleep(2000);
 	}
@@ -146,7 +146,7 @@ public class InfoSectionTest extends BaseTest {
 		info.navitoagentRegistration();
 
 		logger.info("Info agentRegistration  Test Case Passed");
-		Assert.assertEquals("User Agreement -redBus.in", driver.getTitle());
+		Assert.assertEquals("Seat Seller", driver.getTitle());
 
 		Thread.sleep(2000);
 	}

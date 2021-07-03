@@ -17,23 +17,25 @@ public class CareersPage {
 		this.driver = driver;
 	}
 
-	// ------------------------Careers link locators & methods------------------------
+	// ------------------------Careers link locators &
+	// methods------------------------
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Careers')]")
-	public WebElement careers;
+	private WebElement careers;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'redbus')]")
-	public WebElement home;
+	private WebElement home;
 
-	public void careeerButton() {
+	public void careeerButton() throws Throwable {
 		careers.sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
 	}
 
 	public void goHome() {
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
 		home.click();
-		driver.switchTo().window(tabs.get(0));
+
 	}
 	// ---------------------------------------------------------------------------
 

@@ -22,11 +22,11 @@ public class BusAllOperatorsTest extends BaseTest {
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
-
+		String title = data.get("Expected");
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		operator.all_operators();
-		String title = "Find list of bus operators in India. Get more than 2000 bus operators information in redBus, India&#39;s largest bus booking site.";
+
 		logger.info("All Operators Test Case Passed");
 		Assert.assertEquals(title, driver.getTitle());
 		Thread.sleep(5000);

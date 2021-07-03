@@ -104,7 +104,7 @@ public class BaseTest {
 				options.setBinary(firefoxBinary);
 				driver = new FirefoxDriver(options);
 			} else if (headless.equalsIgnoreCase("no")) {
-				System.setProperty(prop.getProperty("driver_path"), prop.getProperty("path_firefox"));
+				System.setProperty(prop.getProperty("driver_firefox"), prop.getProperty("path_firefox"));
 				driver = new FirefoxDriver();
 				driver.manage().window().maximize();
 			}
@@ -125,7 +125,7 @@ public class BaseTest {
 			throw new Exception("PLEASE CHECK THE BROWSER NAME !");
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	}
 
 	@BeforeMethod
@@ -135,7 +135,8 @@ public class BaseTest {
 	}
 
 	@AfterMethod
-	public static void closeBrowser() {
+	public static void closeBrowser() throws Throwable {
+		Thread.sleep(5000);
 		driver.quit();
 	}
 

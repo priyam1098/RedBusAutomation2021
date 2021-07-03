@@ -220,3 +220,133 @@
 2021-07-01 16:47:01,078 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
 2021-07-01 16:47:31,045 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
 2021-07-01 20:37:13,296 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-01 22:01:03,232 - com.redbus.tests.BaseTest -INFO - All Operators Test Case Passed
+2021-07-01 22:01:31,907 - com.redbus.tests.BaseTest -INFO - HelpButton functionality Test Case Passed
+2021-07-01 22:02:10,758 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:02:44,417 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:03:11,292 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:03:38,906 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:04:07,192 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:04:36,508 - com.redbus.tests.BaseTest -INFO - CareersPage Test Case Passed
+2021-07-01 22:04:55,731 - com.redbus.tests.BaseTest -INFO - Info agentRegistration  Test Case Passed
+2021-07-01 22:05:26,651 - com.redbus.tests.BaseTest -INFO - Info Blog Section  Test Case Passed
+2021-07-01 22:05:49,839 - com.redbus.tests.BaseTest -INFO - Info FAQ  Test Case Passed
+2021-07-01 22:06:09,784 - com.redbus.tests.BaseTest -INFO - Info Insurance Section  Test Case Passed
+2021-07-01 22:06:31,843 - com.redbus.tests.BaseTest -INFO - Info privacyPolicy  Test Case Passed
+2021-07-01 22:06:47,901 - com.redbus.tests.BaseTest -INFO - TermAndCondition Test Case Passed
+2021-07-01 22:07:05,460 - com.redbus.tests.BaseTest -INFO - Info user Agreement Section   Test Case Passed
+2021-07-01 22:07:28,189 - com.redbus.tests.BaseTest -INFO - offers Test Case Passed
+2021-07-01 22:07:46,472 - com.redbus.tests.BaseTest -INFO - TravelDate functionality Test Case Passed
+2021-07-01 22:08:02,962 - com.redbus.tests.BaseTest -INFO - ShowTicket functionality Test Case Passed
+2021-07-01 22:08:18,927 - com.redbus.tests.BaseTest -INFO - Cancel ticket functionality Test Case Passed
+2021-07-01 22:08:48,090 - com.redbus.tests.BaseTest -INFO - ModifySearchBusLocation functionality Test Case Passed
+2021-07-01 22:09:34,281 - com.redbus.tests.BaseTest -INFO - rPool Test Case Passed
+2021-07-01 22:10:51,529 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-01 22:11:16,370 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-01 22:11:42,398 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-01 22:20:50,557 - com.redbus.tests.BaseTest -INFO - All Operators Test Case Passed
+2021-07-01 22:21:11,734 - com.redbus.tests.BaseTest -INFO - HelpButton functionality Test Case Passed
+2021-07-01 22:21:45,125 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:22:03,541 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:22:33,559 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:22:54,693 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:23:16,932 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-01 22:23:46,038 - com.redbus.tests.BaseTest -INFO - CareersPage Test Case Passed
+2021-07-01 22:24:01,254 - com.redbus.tests.BaseTest -INFO - Info agentRegistration  Test Case Passed
+2021-07-01 22:24:23,901 - com.redbus.tests.BaseTest -INFO - Info Blog Section  Test Case Passed
+2021-07-01 22:25:01,860 - com.redbus.tests.BaseTest -INFO - Info FAQ  Test Case Passed
+2021-07-01 22:25:13,231 - com.redbus.tests.BaseTest -INFO - Info Insurance Section  Test Case Passed
+2021-07-01 22:25:32,415 - com.redbus.tests.BaseTest -INFO - Info privacyPolicy  Test Case Passed
+2021-07-01 22:25:54,512 - com.redbus.tests.BaseTest -INFO - TermAndCondition Test Case Passed
+2021-07-01 22:26:16,777 - com.redbus.tests.BaseTest -INFO - Info user Agreement Section   Test Case Passed
+2021-07-01 22:26:38,251 - com.redbus.tests.BaseTest -INFO - offers Test Case Passed
+2021-07-01 22:26:59,154 - com.redbus.tests.BaseTest -INFO - TravelDate functionality Test Case Passed
+2021-07-01 22:27:19,635 - com.redbus.tests.BaseTest -INFO - ShowTicket functionality Test Case Passed
+2021-07-01 22:27:39,012 - com.redbus.tests.BaseTest -INFO - Cancel ticket functionality Test Case Passed
+2021-07-01 22:28:10,045 - com.redbus.tests.BaseTest -INFO - ModifySearchBusLocation functionality Test Case Passed
+2021-07-01 22:28:29,991 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-01 22:29:21,315 - com.redbus.tests.BaseTest -INFO - rPool Test Case Passed
+2021-07-01 22:30:43,732 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-01 22:31:14,185 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-01 22:31:55,774 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-02 08:46:01,353 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 08:47:20,916 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 08:49:07,216 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 08:55:31,556 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 08:56:45,230 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 08:57:43,360 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 09:02:09,901 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 09:25:43,222 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 09:26:41,104 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 11:05:22,938 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-02 11:17:33,414 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-02 15:30:33,011 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-02 15:55:44,653 - com.redbus.tests.BaseTest -INFO - Info agentRegistration  Test Case Passed
+2021-07-02 15:56:03,816 - com.redbus.tests.BaseTest -INFO - Info Blog Section  Test Case Passed
+2021-07-02 15:56:16,366 - com.redbus.tests.BaseTest -INFO - Info FAQ  Test Case Passed
+2021-07-02 15:56:26,776 - com.redbus.tests.BaseTest -INFO - Info Insurance Section  Test Case Passed
+2021-07-02 15:56:38,680 - com.redbus.tests.BaseTest -INFO - Info privacyPolicy  Test Case Passed
+2021-07-02 15:56:48,459 - com.redbus.tests.BaseTest -INFO - TermAndCondition Test Case Passed
+2021-07-02 15:57:02,062 - com.redbus.tests.BaseTest -INFO - Info user Agreement Section   Test Case Passed
+2021-07-02 15:57:30,103 - com.redbus.tests.BaseTest -INFO - HelpButton functionality Test Case Passed
+2021-07-02 15:58:05,216 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-02 15:58:26,964 - com.redbus.tests.BaseTest -INFO - All Operators Test Case Passed
+2021-07-02 15:59:02,449 - com.redbus.tests.BaseTest -INFO - CareersPage Test Case Passed
+2021-07-02 15:59:29,612 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-02 16:01:41,110 - com.redbus.tests.BaseTest -INFO - TravelDate functionality Test Case Passed
+2021-07-02 16:03:13,641 - com.redbus.tests.BaseTest -INFO - ModifySearchBusLocation functionality Test Case Passed
+2021-07-02 16:04:18,150 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 16:04:40,117 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-02 16:05:02,815 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-02 16:05:29,529 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-02 16:05:55,469 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-02 16:06:18,360 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-02 16:07:30,349 - com.redbus.tests.BaseTest -INFO - ShowTicket functionality Test Case Passed
+2021-07-02 16:08:09,227 - com.redbus.tests.BaseTest -INFO - rPool Test Case Passed
+2021-07-02 16:08:35,063 - com.redbus.tests.BaseTest -INFO - Cancel ticket functionality Test Case Passed
+2021-07-02 16:08:54,895 - com.redbus.tests.BaseTest -INFO - offers Test Case Passed
+2021-07-02 16:09:27,220 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-02 16:10:00,613 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-02 18:05:27,465 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-02 18:25:42,855 - com.redbus.tests.BaseTest -INFO - Invalid source Search Bus Test Case Passed
+2021-07-02 21:05:17,614 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-03 09:13:30,057 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-03 09:29:27,008 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-03 09:29:42,153 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-03 09:29:57,867 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-03 09:30:13,759 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-03 09:30:29,665 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-03 09:50:20,733 - com.redbus.tests.BaseTest -INFO - Info agentRegistration  Test Case Passed
+2021-07-03 09:50:30,900 - com.redbus.tests.BaseTest -INFO - Info Blog Section  Test Case Passed
+2021-07-03 09:50:39,330 - com.redbus.tests.BaseTest -INFO - Info FAQ  Test Case Passed
+2021-07-03 09:50:48,303 - com.redbus.tests.BaseTest -INFO - Info Insurance Section  Test Case Passed
+2021-07-03 09:50:59,191 - com.redbus.tests.BaseTest -INFO - Info privacyPolicy  Test Case Passed
+2021-07-03 09:51:07,181 - com.redbus.tests.BaseTest -INFO - TermAndCondition Test Case Passed
+2021-07-03 09:51:16,566 - com.redbus.tests.BaseTest -INFO - Info user Agreement Section   Test Case Passed
+2021-07-03 10:14:19,586 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-03 10:19:17,865 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-03 10:23:22,034 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-03 10:26:35,167 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-03 10:30:29,887 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-03 10:50:55,645 - com.redbus.tests.BaseTest -INFO - rPool Test Case Passed
+2021-07-03 11:02:29,060 - com.redbus.tests.BaseTest -INFO - TermAndCondition Test Case Passed
+2021-07-03 11:04:19,983 - com.redbus.tests.BaseTest -INFO - rPool Test Case Passed
+2021-07-03 11:05:01,440 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-03 11:05:19,690 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-03 11:06:10,674 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-03 11:06:26,956 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-03 11:12:59,548 - com.redbus.tests.BaseTest -INFO - rPool Test Case Passed
+2021-07-03 11:21:16,452 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:26:19,493 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:30:03,411 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:36:14,738 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:47:55,982 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:51:49,239 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:53:37,936 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:55:06,256 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 11:57:20,815 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 12:01:08,315 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-03 12:09:17,587 - com.redbus.tests.BaseTest -INFO - Outstation hiring Case Passed
+2021-07-03 12:11:14,375 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-03 12:14:36,266 - com.redbus.tests.BaseTest -INFO - All Operators Test Case Passed
+2021-07-03 12:17:19,738 - com.redbus.tests.BaseTest -INFO - All Operators Test Case Passed

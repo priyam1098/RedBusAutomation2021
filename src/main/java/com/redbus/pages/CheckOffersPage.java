@@ -21,7 +21,7 @@ public class CheckOffersPage {
 
 	//----------------------Check offers link locators & methods--------------------
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Offers')]")
-	public WebElement clickoffer;
+	private WebElement clickoffer;
 
 
 	public void clickOfferButton() throws Throwable {

@@ -18,87 +18,100 @@ public class InfoSectionHomePage {
 	}
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'T & C')]")
-	public WebElement termcondition;
+	private WebElement termcondition;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Privacy Policy')]")
-	public WebElement privacypolicy;
+	private WebElement privacypolicy;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'FAQ')]")
-	public WebElement faq;
+	private WebElement faq;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Blog')]")
-	public WebElement blog;
+	private WebElement blog;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Bus Operator Registration')]")
-	public WebElement operatorregistration;
+	private WebElement operatorregistration;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Insurance Partner')]")
-	public WebElement insurance;
+	private WebElement insurance;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'User Agreement')]")
-	public WebElement useragreement;
+	private WebElement useragreement;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Agent Registration')]")
-	public WebElement agentRegistration;
+	private WebElement agentRegistration;
 
 	@FindBy(how = How.XPATH, using = "//button[contains(text(),'Sign In / Sign Up')]")
-	public WebElement signin;
+	private WebElement signin;
 
-//	@FindBy(how = How.XPATH, using = "//input[@class='sc-htoDjs gdSuEF']")
-//	public WebElement enterMobileNumber;
+	@FindBy(how = How.XPATH, using = "//input[@class='sc-htoDjs gdSuEF']")
+	public WebElement enterMobileNumber;
 
-//	@FindBy(how = How.ID, using = "recaptcha-anchor-label")
-//	public WebElement clickcaptcha;
+	@FindBy(how = How.ID, using = "recaptcha-anchor-label")
+	public WebElement clickcaptcha;
 
-	public void naviToTC() {
+	public void naviToTC()   {
 		termcondition.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+
 	}
 
 	public void navitoprivacypolicy() {
 		privacypolicy.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+
 	}
 
-	public void navitofaq() {
+	public void navitofaq()  {
 		faq.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+
 	}
 
-	public void navitoblog() {
+	public void navitoblog()   {
 		blog.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+
 	}
 
-	public void navitooperatorregistration(String mobile_number) {
+	public void navitooperatorregistration(String mobile_number)   {
 		operatorregistration.sendKeys(Keys.ENTER);
-		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		driver.switchTo().window(tabs.get(1));
-		signin.sendKeys(Keys.ENTER);
-		//enterMobileNumber.sendKeys(mobile_number);
-		//clickcaptcha.sendKeys(Keys.ENTER);
+//		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+//		driver.switchTo().window(tabs.get(1));
+		//signin.sendKeys(Keys.ENTER);
+		enterMobileNumber.sendKeys(mobile_number);
+
+		
+	}
+	public void clickCaptcha() {
+		clickcaptcha.sendKeys(Keys.ENTER);
+
+		
 	}
 
-	public void navitoinsurance() {
+	public void navitoinsurance()  {
 		insurance.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+
 	}
 
-	public void navitouseragreement() {
+	public void navitouseragreement()  {
 		useragreement.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+
 	}
 
-	public void navitoagentRegistration() {
+	public void navitoagentRegistration()  {
 		agentRegistration.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+
 	}
 
 }

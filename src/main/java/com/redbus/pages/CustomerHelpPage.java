@@ -18,13 +18,15 @@ public class CustomerHelpPage {
 	}
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Help')]")
-	public WebElement helpbutton;
+	private WebElement helpbutton;
 
 	@FindBy(how = How.XPATH, using = "//body/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
-	public WebElement cross;
+	private WebElement cross;
 
-	public void naviHelpSection() {
+	public void naviHelpSection() throws Throwable {
 		helpbutton.click();
+		Thread.sleep(2000);
+
 		
 	}
 

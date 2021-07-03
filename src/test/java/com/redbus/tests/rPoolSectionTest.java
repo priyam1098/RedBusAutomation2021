@@ -32,7 +32,7 @@ public class rPoolSectionTest extends BaseTest{
 		logger.info("rPool Test Case Passed");
 		Assert.assertEquals(titleofpage, driver.getTitle());
 
-		Thread.sleep(9000);
+		Thread.sleep(2000);
 	}
 
 

@@ -26,6 +26,7 @@ public class BusOperatorRegistrationTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 		
 		info.navitooperatorregistration(mobile_number);
+		info.clickCaptcha();
 
 		Assert.assertEquals("", driver.getTitle());
 		logger.info("Info operator Registration  Test Case Passed");

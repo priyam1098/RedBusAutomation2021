@@ -25,29 +25,17 @@ public class ModifySearchBusLocationTest extends BaseTest {
 		String executionRequired = data.get("Execution Required").toLowerCase();
 		String source_Location = data.get("From");
 		String dest_Location = data.get("To");
-		//String month = data.get("month");
+
 		String day = data.get("day");
-		//String Year = data.get("Year");
-		//String month_year = month+" "+Year;
-		
 
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		modify_location.selectsource(source_Location);
-		Thread.sleep(2000);
 		modify_location.selectdestination(dest_Location);
-		Thread.sleep(2000);
-
-		modify_location.dateSelectButton( "July 2021" , day);
-		Thread.sleep(2000);
-
-
+		modify_location.dateSelectButton("July 2021", day);
 		modify_location.clicksearchbutton();
-
 		modify_location.modifylocation(dest_Location, source_Location);
 		modify_location.modifySearch();
-
-		modify_location.viewseats();
 
 		String expected = driver.getTitle();
 		logger.info("ModifySearchBusLocation functionality Test Case Passed");

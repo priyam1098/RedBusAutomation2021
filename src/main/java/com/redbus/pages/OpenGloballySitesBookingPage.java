@@ -19,24 +19,25 @@ public class OpenGloballySitesBookingPage {
 	}
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Singapore')]")
-	public WebElement Singaporesitelink;
+	private WebElement Singaporesitelink;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Malaysia')]")
-	public WebElement Malaysiasitelink;
+	private WebElement Malaysiasitelink;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Indonesia')]")
-	public WebElement Indonesiasitelink;
+	private WebElement Indonesiasitelink;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Peru')]")
-	public WebElement Perusitelink;
+	private WebElement Perusitelink;
 
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Colombia')]")
-	public WebElement Colombiasitelink;
+	private WebElement Colombiasitelink;
 
 	public void singaporeBooking() {
 		Singaporesitelink.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(tabs.get(1));
+		
 
 	}
 
