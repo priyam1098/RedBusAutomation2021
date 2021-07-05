@@ -4,8 +4,10 @@ import java.util.HashMap;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.redbus.pages.MangaingBookingPage;
-import utils.CommonUtils;
+
+import com.redbus.pages.HomeFunctionalityPage;
+
+import utilities.CommonUtils;
 
 public class ManageBookingChangeTravelDateTest extends BaseTest {
 	private String sheetName = "RedbusFunctionality";
@@ -15,7 +17,8 @@ public class ManageBookingChangeTravelDateTest extends BaseTest {
 		extentTest = extent.startTest("TravelDate functionality scenario test");
 		String testcase = "TravelDate";
 
-		MangaingBookingPage changedate = new MangaingBookingPage(driver);
+		HomeFunctionalityPage changedate = new HomeFunctionalityPage(driver);
+		//Data taken from excel
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
@@ -25,7 +28,7 @@ public class ManageBookingChangeTravelDateTest extends BaseTest {
 		changedate.travelDate();
 
 		logger.info("TravelDate functionality Test Case Passed");
-		//Assert.assertEquals("https://www.redbus.in/Reschedule", driver.getTitle());
+		Assert.assertEquals("", driver.getTitle());
 		Thread.sleep(5000);
 	}
 

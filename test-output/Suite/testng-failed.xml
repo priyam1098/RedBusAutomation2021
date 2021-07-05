@@ -3,63 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.redbus.tests.InfoSectionTest">
-        <methods>
-          <include name="privacyPolicysection"/>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="agentRegistration"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.InfoSectionTest -->
-      <class name="com.redbus.tests.RedbusPartnerwebsitesTest">
+      <class name="com.redbus.tests.NavigateBusOperatorRegistrationTest">
         <methods>
           <include name="setExtent"/>
           <include name="attachScreenShot"/>
           <include name="endReport"/>
           <include name="openBrowser"/>
-          <include name="partnerWebsitesgoibibosite"/>
-          <include name="closeBrowser"/>
-          <include name="partnerWebsitesmakemytrip"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.RedbusPartnerwebsitesTest -->
-      <class name="com.redbus.tests.SigninTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="signin"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.SigninTest -->
-      <class name="com.redbus.tests.BusOperatorRegistrationTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
           <include name="operatorRegistration"/>
-        </methods>
-      </class> <!-- com.redbus.tests.BusOperatorRegistrationTest -->
-      <class name="com.redbus.tests.SearchBusTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
           <include name="closeBrowser"/>
           <include name="intializeWebdriver"/>
-          <include name="invalidDestinationSearchBus"/>
         </methods>
-      </class> <!-- com.redbus.tests.SearchBusTest -->
+      </class> <!-- com.redbus.tests.NavigateBusOperatorRegistrationTest -->
       <class name="com.redbus.tests.BusAllOperatorsTest">
         <methods>
           <include name="setExtent"/>
@@ -71,6 +25,54 @@
           <include name="intializeWebdriver"/>
         </methods>
       </class> <!-- com.redbus.tests.BusAllOperatorsTest -->
+      <class name="com.redbus.tests.RedbusGloballyBookingSitesTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="attachScreenShot"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="open_peru_Booking"/>
+          <include name="closeBrowser"/>
+          <include name="intializeWebdriver"/>
+        </methods>
+      </class> <!-- com.redbus.tests.RedbusGloballyBookingSitesTest -->
+      <class name="com.redbus.tests.CareersTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="attachScreenShot"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="careers"/>
+          <include name="closeBrowser"/>
+          <include name="intializeWebdriver"/>
+        </methods>
+      </class> <!-- com.redbus.tests.CareersTest -->
+      <class name="com.redbus.tests.CheckOffersTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="attachScreenShot"/>
+          <include name="endReport"/>
+          <include name="offers"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="intializeWebdriver"/>
+        </methods>
+      </class> <!-- com.redbus.tests.CheckOffersTest -->
+      <class name="com.redbus.tests.InfoSectionTest">
+        <methods>
+          <include name="privacyPolicysection"/>
+          <include name="termAndCondition"/>
+          <include name="setExtent"/>
+          <include name="attachScreenShot"/>
+          <include name="agentRegistration"/>
+          <include name="endReport"/>
+          <include name="openBrowser"/>
+          <include name="blogSection"/>
+          <include name="closeBrowser"/>
+          <include name="faqsection"/>
+          <include name="intializeWebdriver"/>
+        </methods>
+      </class> <!-- com.redbus.tests.InfoSectionTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

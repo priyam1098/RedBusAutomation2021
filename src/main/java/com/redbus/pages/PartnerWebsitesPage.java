@@ -23,15 +23,20 @@ public class PartnerWebsitesPage {
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Makemytrip')]")
 	private WebElement makemytrip;
 
-	public void goToGoibiboSite() {
+	public void goToGoibiboSite() throws Throwable {
 		goibibosite.click();
+		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
+		
 	}
 	
-	public void goToMakemytripSite() {
+	public void goToMakemytripSite() throws Throwable {
 		makemytrip.click();
+		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 	}
 

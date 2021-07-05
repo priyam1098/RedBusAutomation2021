@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.redbus.pages.TravellerBusHiringPage;
 
-import utils.CommonUtils;
+import utilities.CommonUtils;
 
 public class OutstaionBusHiringTest extends BaseTest {
 	private String sheetName = "RedbusFunctionality";
@@ -17,7 +17,7 @@ public class OutstaionBusHiringTest extends BaseTest {
 		extentTest = extent.startTest("Outstation hiring scenario test");
 		TravellerBusHiringPage bushire = new TravellerBusHiringPage(driver);
 		String testcase = "BusHiringOutstation";
-
+		//Data taken from excel
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
@@ -26,8 +26,7 @@ public class OutstaionBusHiringTest extends BaseTest {
 		String passenger = data.get("passenger");
 		String from = data.get("From");
 		String To = data.get("To");
-		      
-		
+		String title = data.get("Expected");
 
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
@@ -39,7 +38,7 @@ public class OutstaionBusHiringTest extends BaseTest {
 		bushire.enterTotalPassenger(passenger);
 		bushire.clickonProceed();
 
-		Assert.assertEquals("Fill Contact Details",bushire.nexttitle.getText());
+		Assert.assertEquals(title, bushire.nexttitle.getText());
 
 		logger.info("Outstation hiring Case Passed");
 

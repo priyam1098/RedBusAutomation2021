@@ -33,38 +33,49 @@ public class OpenGloballySitesBookingPage {
 	@FindBy(how = How.XPATH, using = "//a[contains(text(),'Colombia')]")
 	private WebElement Colombiasitelink;
 
-	public void singaporeBooking() {
+	public void singaporeBooking() throws Throwable {
 		Singaporesitelink.sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
+		
 		
 
 	}
 
-	public void MalaysiaBooking() {
+	public void MalaysiaBooking() throws Throwable {
 		Malaysiasitelink.sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
-	public void indonesiaBooking() {
+	public void indonesiaBooking() throws Throwable {
 		Indonesiasitelink.sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
-	public void peruBooking() {
+	public void peruBooking() throws Throwable {
 		Perusitelink.sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
-	public void colombiaBooking() {
+	public void colombiaBooking() throws Throwable {
 		Colombiasitelink.sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}

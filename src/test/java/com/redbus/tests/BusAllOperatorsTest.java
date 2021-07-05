@@ -5,9 +5,9 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.redbus.pages.BusAllOperatorsPage;
+import com.redbus.pages.HomeFunctionalityPage;
 
-import utils.CommonUtils;
+import utilities.CommonUtils;
 
 public class BusAllOperatorsTest extends BaseTest {
 
@@ -18,7 +18,9 @@ public class BusAllOperatorsTest extends BaseTest {
 		extentTest = extent.startTest("All Operators page scenario test");
 		String testcase = "all_bus_operators";
 
-		BusAllOperatorsPage operator  = new BusAllOperatorsPage(driver);
+		HomeFunctionalityPage operator = new HomeFunctionalityPage(driver);
+		// Data taken from excel
+
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();

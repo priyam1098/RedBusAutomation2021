@@ -54,16 +54,14 @@ public class ModifySearchBusLocationPage extends DatePicker {
 
 	}
 
-	public void dateSelectButton(String month_year, String date) throws Throwable {
+	public void dateSelectButton(String month_year, String date)  {
 
 		selectdatepicker(selectdate, month_year, date, driver);
-		Thread.sleep(3000);
 
 	}
 
-	public void clicksearchbutton() throws Throwable {
+	public void clicksearchbutton()  {
 		searchbus.click();
-		Thread.sleep(3000);
 
 	}
 
@@ -75,6 +73,7 @@ public class ModifySearchBusLocationPage extends DatePicker {
 		destination.clear();
 		destination.sendKeys(destloaction);
 		destination.sendKeys(Keys.ENTER);
+		
 
 	}
 

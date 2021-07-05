@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.redbus.pages.PartnerWebsitesPage;
 
-import utils.CommonUtils;
+import utilities.CommonUtils;
 
 public class RedbusPartnerwebsitesTest extends BaseTest {
 	private String sheetName = "RedbusFunctionality";
@@ -18,6 +18,7 @@ public class RedbusPartnerwebsitesTest extends BaseTest {
 		extentTest = extent.startTest("Valid PartnerWebsitesPage functionality scenario test");
 		PartnerWebsitesPage website1 = new PartnerWebsitesPage(driver);
 		String testcase = "partnerWebsitesgoibibosite";
+		//Data taken from excel
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
@@ -25,10 +26,10 @@ public class RedbusPartnerwebsitesTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		website1.goToGoibiboSite();
-		
-		String page_title= "Goibibo - Best Travel Website. Book Hotels, Flights, Trains, Bus and Cabs with upto 50% off";
+		String titleofpage = data.get("Expected");
+
 		logger.info("PartnerWebsitesPage functionality Test Case Passed");
-		Assert.assertEquals(page_title, driver.getTitle());
+		Assert.assertEquals(titleofpage, driver.getTitle());
 		Thread.sleep(5000);
 	}
 	
@@ -38,6 +39,7 @@ public class RedbusPartnerwebsitesTest extends BaseTest {
 		String testcase = "partnerWebsitesmakemytrip";
 
 		PartnerWebsitesPage website2 = new PartnerWebsitesPage(driver);
+		//Data taken from excel
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
@@ -45,7 +47,7 @@ public class RedbusPartnerwebsitesTest extends BaseTest {
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		website2.goToMakemytripSite();
-		String page_title ="MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday";
+		String page_title =data.get("Expected");
 		logger.info("PartnerWebsitesPage functionality Test Case Passed");
 		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);

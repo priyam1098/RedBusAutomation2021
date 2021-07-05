@@ -2,7 +2,6 @@ package com.redbus.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -77,12 +76,20 @@ public class TravellerBusHiringPage {
 	@FindBy(how = How.XPATH, using = "//body/div[@id='AirporLeadGen_LandingPage']/div[@id='bodyCont']/div[2]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[1]")
 	private WebElement fromDateAndTimeForAirport;
 
-	@FindBy(how = How.XPATH, using = "//button[@id='proceedButtonAirport']") // airport
+	@FindBy(how = How.ID, using = "proceedButtonAirport") // airport
 	private WebElement proceed_button;
+	
+	@FindBy(how = How.XPATH, using = "//span[@id='to_airport']")
+	private WebElement droptoAirportbutton;
 
 	public void naviToBusHire() {
 
 		bushirelink.click();
+	}
+
+	public void dropToArport() {
+
+		droptoAirportbutton.click();
 	}
 
 	public void select_city() {// airport
@@ -199,7 +206,7 @@ public class TravellerBusHiringPage {
 		// selecting date and time
 		Thread.sleep(500);
 		try {
-			DateAndTimeHelper.selectDateAndTimeAtBusHirePage(driver, fromDateAndTimeVal);
+			DateAndTimeHelper.selectDateAndTime_BusHirePage(driver, fromDateAndTimeVal);
 		} catch (Exception e) {
 
 			e.printStackTrace();
@@ -207,7 +214,7 @@ public class TravellerBusHiringPage {
 		toDateAndTimeForOutstation.click();
 		// selecting date and time
 		try {
-			DateAndTimeHelper.selectDateAndTimeAtBusHirePage(driver, tillDateAndTimeVal);
+			DateAndTimeHelper.selectDateAndTime_BusHirePage(driver, tillDateAndTimeVal);
 		} catch (Exception e) {
 
 			e.printStackTrace();
@@ -232,7 +239,7 @@ public class TravellerBusHiringPage {
 
 		// selecting date and time
 		try {
-			DateAndTimeHelper.selectDateAndTimeAtBusHirePage(driver, DateAndTimeVal);
+			DateAndTimeHelper.selectDateAndTime_BusHirePage(driver, DateAndTimeVal);
 		} catch (Exception e) {
 
 			e.printStackTrace();
@@ -257,7 +264,7 @@ public class TravellerBusHiringPage {
 
 		// selecting date and time
 		try {
-			DateAndTimeHelper.selectDateAndTimeAtBusHirePage(driver, DateAndTimeVal);
+			DateAndTimeHelper.selectDateAndTime_BusHirePage(driver, DateAndTimeVal);
 		} catch (Exception e) {
 
 			e.printStackTrace();

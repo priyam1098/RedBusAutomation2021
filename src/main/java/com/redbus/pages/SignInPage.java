@@ -25,7 +25,7 @@ public class SignInPage {
 	@FindBy(how = How.XPATH, using = "//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")
 	private WebElement googlesignin;
 
-	@FindBy(how = How.XPATH, using = "//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")
+	@FindBy(how = How.XPATH, using = "//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")
 	private WebElement popupclose;
 	
 	@FindBy(how = How.ID, using = "mobileNoInp")
@@ -36,30 +36,18 @@ public class SignInPage {
 		signin_button.click();
 	}
 
-	public void signinButton() throws Throwable  {
+	public void signinButton()   {
 		clicksignin.click();
-		Thread.sleep(3000);
 	}
 
-//	public void signIn() throws Throwable {
-//		driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));
-//		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[1]/div[8]/div[1]")).click();
-//		Thread.sleep(5000);
-//
-//
-//	}
-	
-	public void enterMobile() throws Throwable  {
+	public void signIn() throws Throwable  {
 		driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));
-		mobile.sendKeys("1231231231");
-		Thread.sleep(3000);
-
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[1]/div[8]/div[1]")).click();
+		
+		
 	}
 	
 
-	public void closePopUp() {
-		// driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));
-		popupclose.click();
-	}
 
 }

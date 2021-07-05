@@ -5,9 +5,9 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.redbus.pages.CustomerHelpPage;
+import com.redbus.pages.HomeFunctionalityPage;
 
-import utils.CommonUtils;
+import utilities.CommonUtils;
 
 public class CustomerHelpsectionTest extends BaseTest {
 	private String sheetName = "RedbusFunctionality";
@@ -18,18 +18,18 @@ public class CustomerHelpsectionTest extends BaseTest {
 		extentTest = extent.startTest("Valid HelpButton functionality scenario test");
 		String testcase = "Help";
 
-		CustomerHelpPage helpsection = new CustomerHelpPage(driver);
+		HomeFunctionalityPage helpsection = new HomeFunctionalityPage(driver);
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
-
+		String page_title = data.get("Expected");
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		helpsection.naviHelpSection();
 		helpsection.closePopup();
 
 		logger.info("HelpButton functionality Test Case Passed");
-		Assert.assertEquals("red:Care", driver.getTitle());
+		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);
 	}
 

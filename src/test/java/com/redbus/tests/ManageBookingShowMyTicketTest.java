@@ -5,9 +5,9 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.redbus.pages.MangaingBookingPage;
+import com.redbus.pages.HomeFunctionalityPage;
 
-import utils.CommonUtils;
+import utilities.CommonUtils;
 
 public class ManageBookingShowMyTicketTest extends BaseTest {
 
@@ -18,7 +18,8 @@ public class ManageBookingShowMyTicketTest extends BaseTest {
 		extentTest = extent.startTest("ShowTicket functionality scenario test");
 		String testcase = "ShowTicket";
 
-		MangaingBookingPage show_ticket = new MangaingBookingPage(driver);
+		HomeFunctionalityPage show_ticket = new HomeFunctionalityPage(driver);
+		//Data taken from excel
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
@@ -28,7 +29,7 @@ public class ManageBookingShowMyTicketTest extends BaseTest {
 		show_ticket.showTicket();
 
 		logger.info("ShowTicket functionality Test Case Passed");
-		//Assert.assertEquals("https://www.redbus.in/Home/PrintTicket", driver.getTitle());
+		Assert.assertEquals("", driver.getTitle());
 		Thread.sleep(5000);
 	}
 

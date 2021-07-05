@@ -5,9 +5,9 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.redbus.pages.CheckOffersPage;
+import com.redbus.pages.HomeFunctionalityPage;
 
-import utils.CommonUtils;
+import utilities.CommonUtils;
 
 public class CheckOffersTest extends BaseTest {
 	private String sheetName = "RedbusFunctionality";
@@ -17,17 +17,19 @@ public class CheckOffersTest extends BaseTest {
 		extentTest = extent.startTest(" offers page scenario test");
 		String testcase = "offers";
 
-		CheckOffersPage useroffers = new CheckOffersPage(driver);
+		HomeFunctionalityPage useroffers = new HomeFunctionalityPage(driver);
+		//Data taken from excel
+
 		HashMap<String, String> data = new HashMap<String, String>();
 		data = reader.getRowTestData(sheetName, testcase);
 		String executionRequired = data.get("Execution Required").toLowerCase();
-
+		String page_title =data.get("Expected");
 		CommonUtils.toCheckExecutionRequired(executionRequired);
 
 		useroffers.clickOfferButton();
 
 		logger.info("offers Test Case Passed");
-		Assert.assertEquals("Offers: Bus Offers, Hotel Discounts & Coupon Codes - redBus", driver.getTitle());
+		Assert.assertEquals(page_title, driver.getTitle());
 		Thread.sleep(5000);
 	}
 }
