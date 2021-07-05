@@ -110,7 +110,7 @@
   
 ###Steps to Run(on jenkins)
 - **Step:1**
-   Start genkins server go to project
+   Start jenkins server go to project
 - **Step:2**
    Click on build now 
 	
