@@ -3,127 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.redbus.tests.ManageBookingChangeTravelDateTest">
-        <methods>
-          <include name="TravelDate"/>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.ManageBookingChangeTravelDateTest -->
-      <class name="com.redbus.tests.ManageBookingShowMyTicketTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="ShowTicket"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.ManageBookingShowMyTicketTest -->
-      <class name="com.redbus.tests.LocalBusHiringTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="BusHiringLocal"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.LocalBusHiringTest -->
-      <class name="com.redbus.tests.ModifySearchBusLocationTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="modifySearchLocation"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.ModifySearchBusLocationTest -->
-      <class name="com.redbus.tests.RedbusPartnerwebsitesTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="partnerWebsitesmakemytrip"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.RedbusPartnerwebsitesTest -->
-      <class name="com.redbus.tests.CustomerHelpsectionTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="Help"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.CustomerHelpsectionTest -->
-      <class name="com.redbus.tests.MangaingBookingCancelTicketTest">
-        <methods>
-          <include name="TicketCancel"/>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.MangaingBookingCancelTicketTest -->
       <class name="com.redbus.tests.AirportBusHiringTest">
         <methods>
           <include name="BusHiringAirport"/>
           <include name="setExtent"/>
           <include name="attachScreenShot"/>
           <include name="endReport"/>
+          <include name="WebdriverInitilizer"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
         </methods>
       </class> <!-- com.redbus.tests.AirportBusHiringTest -->
-      <class name="com.redbus.tests.CareersTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="careers"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.CareersTest -->
-      <class name="com.redbus.tests.SigninTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="signin"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.SigninTest -->
-      <class name="com.redbus.tests.OutstaionBusHiringTest">
-        <methods>
-          <include name="BusHiringOutstation"/>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.OutstaionBusHiringTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

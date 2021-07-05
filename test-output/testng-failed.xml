@@ -1,78 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.redbus.tests.NavigateBusOperatorRegistrationTest">
+      <class name="com.redbus.tests.AirportBusHiringTest">
         <methods>
+          <include name="BusHiringAirport"/>
           <include name="setExtent"/>
           <include name="attachScreenShot"/>
           <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="operatorRegistration"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.NavigateBusOperatorRegistrationTest -->
-      <class name="com.redbus.tests.BusAllOperatorsTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="all_bus_operators"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.BusAllOperatorsTest -->
-      <class name="com.redbus.tests.RedbusGloballyBookingSitesTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="open_peru_Booking"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.RedbusGloballyBookingSitesTest -->
-      <class name="com.redbus.tests.CareersTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="careers"/>
-          <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.CareersTest -->
-      <class name="com.redbus.tests.CheckOffersTest">
-        <methods>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="endReport"/>
-          <include name="offers"/>
+          <include name="WebdriverInitilizer"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
-          <include name="intializeWebdriver"/>
         </methods>
-      </class> <!-- com.redbus.tests.CheckOffersTest -->
-      <class name="com.redbus.tests.InfoSectionTest">
-        <methods>
-          <include name="privacyPolicysection"/>
-          <include name="termAndCondition"/>
-          <include name="setExtent"/>
-          <include name="attachScreenShot"/>
-          <include name="agentRegistration"/>
-          <include name="endReport"/>
-          <include name="openBrowser"/>
-          <include name="blogSection"/>
-          <include name="closeBrowser"/>
-          <include name="faqsection"/>
-          <include name="intializeWebdriver"/>
-        </methods>
-      </class> <!-- com.redbus.tests.InfoSectionTest -->
+      </class> <!-- com.redbus.tests.AirportBusHiringTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

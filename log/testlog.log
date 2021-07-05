@@ -794,3 +794,103 @@
 2021-07-05 11:29:11,279 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
 2021-07-05 11:29:25,814 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
 2021-07-05 11:29:40,460 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-05 12:14:48,599 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:15:00,793 - com.redbus.tests.BaseTest -INFO - Info agentRegistration  Test Case Passed
+2021-07-05 12:15:10,546 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:15:19,921 - com.redbus.tests.BaseTest -INFO - Info Blog Section  Test Case Passed
+2021-07-05 12:15:29,339 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:15:37,752 - com.redbus.tests.BaseTest -INFO - Info FAQ  Test Case Passed
+2021-07-05 12:15:47,174 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:15:55,899 - com.redbus.tests.BaseTest -INFO - Info Insurance Section  Test Case Passed
+2021-07-05 12:16:05,560 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:16:13,795 - com.redbus.tests.BaseTest -INFO - Info privacyPolicy  Test Case Passed
+2021-07-05 12:16:23,410 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:16:31,518 - com.redbus.tests.BaseTest -INFO - TermAndCondition Test Case Passed
+2021-07-05 12:16:41,170 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:16:52,312 - com.redbus.tests.BaseTest -INFO - Info user Agreement Section   Test Case Passed
+2021-07-05 12:17:02,135 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:17:09,639 - com.redbus.tests.BaseTest -INFO - rPool Test Case Passed
+2021-07-05 12:17:19,357 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:17:48,581 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:18:02,038 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:18:11,816 - com.redbus.tests.BaseTest -INFO - CareersPage Test Case Passed
+2021-07-05 12:18:23,104 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:18:34,331 - com.redbus.tests.BaseTest -INFO - offers Test Case Passed
+2021-07-05 12:18:46,735 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:18:59,166 - com.redbus.tests.BaseTest -INFO - Info operator Registration  Test Case Passed
+2021-07-05 12:19:15,724 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:19:28,907 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:19:36,940 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-05 12:19:51,012 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:20:03,613 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-05 12:20:18,551 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:20:27,142 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-05 12:20:40,396 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:20:48,871 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-05 12:21:02,921 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:21:11,200 - com.redbus.tests.BaseTest -INFO - Global website country  functionality Test Case Passed
+2021-07-05 12:21:26,107 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:21:31,254 - com.redbus.tests.BaseTest -INFO - All Operators Test Case Passed
+2021-07-05 12:21:49,021 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:22:14,971 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:22:28,037 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:22:35,981 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-05 12:22:48,711 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:23:04,832 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:23:22,724 - com.redbus.tests.BaseTest -INFO - ModifySearchBusLocation functionality Test Case Passed
+2021-07-05 12:23:31,520 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:24:08,693 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:24:25,165 - com.redbus.tests.BaseTest -INFO - InvalidSearchBus Test Case Passed
+2021-07-05 12:24:34,707 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:24:53,487 - com.redbus.tests.BaseTest -INFO - Invalid source Search Bus Test Case Passed
+2021-07-05 12:25:03,180 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:25:16,730 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:25:30,782 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:25:44,985 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-05 12:26:01,432 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 12:26:21,587 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-05 13:57:41,032 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:00:00,602 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:00:06,827 - com.redbus.tests.BaseTest -INFO - CareersPage Test Case Passed
+2021-07-05 14:01:00,792 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:01:08,986 - com.redbus.tests.BaseTest -INFO - Info agentRegistration  Test Case Passed
+2021-07-05 14:01:25,143 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:01:32,243 - com.redbus.tests.BaseTest -INFO - Info Blog Section  Test Case Passed
+2021-07-05 14:01:42,708 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:01:47,985 - com.redbus.tests.BaseTest -INFO - Info FAQ  Test Case Passed
+2021-07-05 14:01:59,744 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:02:04,531 - com.redbus.tests.BaseTest -INFO - Info Insurance Section  Test Case Passed
+2021-07-05 14:02:16,100 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:02:23,239 - com.redbus.tests.BaseTest -INFO - Info privacyPolicy  Test Case Passed
+2021-07-05 14:02:35,468 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:02:41,913 - com.redbus.tests.BaseTest -INFO - TermAndCondition Test Case Passed
+2021-07-05 14:02:53,479 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:02:57,379 - com.redbus.tests.BaseTest -INFO - Info user Agreement Section   Test Case Passed
+2021-07-05 14:12:17,656 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:12:41,981 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:13:03,092 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:13:24,171 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:13:45,481 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:14:10,531 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:14:31,096 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:15:48,441 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:15:56,673 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-05 14:16:13,444 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:18:22,095 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:18:37,578 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:19:41,219 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:19:45,720 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-05 14:20:02,467 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:20:11,124 - com.redbus.tests.BaseTest -INFO - PartnerWebsitesPage functionality Test Case Passed
+2021-07-05 14:22:04,845 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:23:10,365 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:24:20,924 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:25:39,242 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:26:19,095 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-05 14:26:46,281 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:27:25,507 - com.redbus.tests.BaseTest -INFO - Local hiring Case Passed
+2021-07-05 14:28:15,941 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:28:26,902 - com.redbus.tests.BaseTest -INFO - SearchBus Test Case Passed
+2021-07-05 14:46:09,010 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
+2021-07-05 14:47:03,407 - com.redbus.tests.BaseTest -INFO - Airport BUS hiring Case Passed
+2021-07-05 14:47:25,416 - com.redbus.tests.BaseTest -INFO - Browser  successfully opened.
