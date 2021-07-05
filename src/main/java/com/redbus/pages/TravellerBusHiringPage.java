@@ -179,13 +179,11 @@ public class TravellerBusHiringPage {
 
 	public void clickonProceed() throws Throwable {// outstation
 		proceedbutton.click();
-		Thread.sleep(3000);
 
 	}
 
 	public void click_on_Proceed() throws Throwable {// local
 		clicklocalProceed.click();
-		Thread.sleep(3000);
 
 	}
 

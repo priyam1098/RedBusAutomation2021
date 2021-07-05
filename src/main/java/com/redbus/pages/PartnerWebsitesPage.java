@@ -2,6 +2,7 @@ package com.redbus.pages;
 
 import java.util.ArrayList;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,19 +25,16 @@ public class PartnerWebsitesPage {
 	private WebElement makemytrip;
 
 	public void goToGoibiboSite() throws Throwable {
-		goibibosite.click();
-		Thread.sleep(2000);
+		goibibosite.sendKeys(Keys.ENTER);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 		
 	}
 	
 	public void goToMakemytripSite() throws Throwable {
-		makemytrip.click();
+		makemytrip.sendKeys(Keys.ENTER);
 		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 	}
 

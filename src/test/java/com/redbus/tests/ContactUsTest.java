@@ -15,7 +15,7 @@ public class ContactUsTest extends BaseTest {
 
 	@Test(priority = 1)
 	public void ContactRedBus() throws Throwable {
-		extentTest = extent.startTest("Valid SearchBus scenario test");
+		extentTest = extent.startTest(" ContactUs scenario test");
 
 		String testcase = "ContactRedBus";
 
@@ -33,7 +33,7 @@ public class ContactUsTest extends BaseTest {
 		contactus.close();
 
 		Assert.assertEquals(page_title, driver.getTitle());
-		logger.info("SearchBus Test Case Passed");
+		logger.info("ContactUs Test Case Passed");
 
 		Thread.sleep(9000);
 

@@ -58,7 +58,6 @@ public class SearchBusPage {
 		
 		destination.click();
 		destination.sendKeys(desadd);
-		Thread.sleep(2000);
 		if (testcase == "ValidsearchBus") {
 		
 			//driver.findElement(By.xpath("//li[@class='C120_slist-item C120_suggestion-active']")).click();

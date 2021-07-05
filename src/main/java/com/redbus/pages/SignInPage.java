@@ -42,7 +42,6 @@ public class SignInPage {
 
 	public void signIn() throws Throwable  {
 		driver.switchTo().frame(driver.findElement(By.xpath("//body/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/iframe[1]")));
-		Thread.sleep(2000);
 		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div/div[1]/div[8]/div[1]")).click();
 		
 		

@@ -99,42 +99,32 @@ public class BaseTest {
 	}
 
 	@BeforeMethod
-	public static void intializeWebdriver() throws Exception {
+	public static void WebdriverInitilizer() throws Exception {
 		String browser = prop.getProperty("browser");
 		String headless = prop.getProperty("headless");
-		String docker_flag = prop.getProperty("docker");
+		String docker = prop.getProperty("docker");
 
 		// Check if parameter passed is firefox
 		if (browser.equalsIgnoreCase("firefox")) {
 			if (headless.equalsIgnoreCase("yes")) {
-				System.setProperty(prop.getProperty("driver_firefox"), prop.getProperty("path_firefox"));
-
-				FirefoxBinary firefoxBinary = new FirefoxBinary();
-				firefoxBinary.addCommandLineOptions("-headless");
-
-				FirefoxOptions options = new FirefoxOptions();
-				options.setBinary(firefoxBinary);
-
-				driver = new FirefoxDriver(options);
-				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-				driver.manage().window().maximize();
-
-			} else if (headless.equalsIgnoreCase("no")) {
-
-				System.setProperty(prop.getProperty("driver_firefox"), prop.getProperty("path_firefox"));
-
-				if (docker_flag.equalsIgnoreCase("true")) {
-					System.out.println("***------------------------Firefox----------------------------------***");
-					FirefoxOptions options = new FirefoxOptions();
-					driver = (new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options));
-				} else if (docker_flag.equalsIgnoreCase("false")) {
-					driver = new FirefoxDriver();
-				}
-				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-				driver.manage().window().maximize();
+			System.setProperty(prop.getProperty("driver_firefox"), prop.getProperty("path_firefox"));
+			FirefoxBinary firefoxBinary = new FirefoxBinary();
+			firefoxBinary.addCommandLineOptions("-headless");
+			FirefoxOptions options = new FirefoxOptions();
+			options.setBinary(firefoxBinary);
+			driver = new FirefoxDriver(options);
+			} else if (headless.equalsIgnoreCase("no") && docker.equalsIgnoreCase("false")) {
+			System.setProperty(prop.getProperty("driver_firefox"), prop.getProperty("path_firefox"));
+			driver = new FirefoxDriver();
+			} else if (headless.equalsIgnoreCase("no") && docker.equalsIgnoreCase("true")) {
+			System.out.println("---------------------------Firefox driver started---------------------------");
+			FirefoxOptions options = new FirefoxOptions();
+			driver = (new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options));
+			} else {
+			driver = new FirefoxDriver();
 			}
 		}
+
 
 		// Check if parameter passed as 'chrome'
 		else if (browser.equalsIgnoreCase("chrome")) {
@@ -146,23 +136,33 @@ public class BaseTest {
 				options.addArguments("start-maximized");
 				options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36");
 				driver = new ChromeDriver(options);
-				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-				driver.manage().window().maximize();
-			} else if (headless.equalsIgnoreCase("no")) {
+
+			} else if (headless.equalsIgnoreCase("no") && docker.equalsIgnoreCase("false")) {
 				System.setProperty(prop.getProperty("driver_chrome"), prop.getProperty("path_chrome"));
-				if (docker_flag.equalsIgnoreCase("true")) {
+				driver = new ChromeDriver();
+
+			}
+				else if (headless.equalsIgnoreCase("no") && docker.equalsIgnoreCase("true")) {
 					System.out.println("***------------------------Chrome----------------------------------***");
 					ChromeOptions options = new ChromeOptions();
 					options.addArguments("--disable-dev-shm-usage");
 					driver = new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options);
-				} else if (docker_flag.equalsIgnoreCase("false")) {
+				}else if (headless.equalsIgnoreCase("yes") && docker.equalsIgnoreCase("true")) {
+					System.out.println("***------------------------Chrome----------------------------------***");
+					ChromeOptions options = new ChromeOptions();
+					options.addArguments("--disable-dev-shm-usage");
+					driver = new RemoteWebDriver(new URL("http:localhost:4444/wd/hub"), options);
+				}			
+				
+				
+				
+				else if (docker.equalsIgnoreCase("false")) {
+					System.setProperty(prop.getProperty("driver_chrome"), prop.getProperty("path_chrome"));
 					driver = new ChromeDriver();
 				}
-				driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-				driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-				driver.manage().window().maximize();
+			
 			}
-		}
+		
 
 		// Check if parameter passed as 'Edge'
 		else if (browser.equalsIgnoreCase("edge"))

@@ -52,45 +52,35 @@ public class InfoSectionPage {
 
 	public void naviToTC() throws Throwable   {
 		termcondition.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
 	public void navitoprivacypolicy() throws Throwable {
 		privacypolicy.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
 	public void navitofaq() throws Throwable  {
 		faq.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
 	public void navitoblog() throws Throwable   {
 		blog.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
 	public void navitooperatorregistration(String mobile_number) throws Throwable   {
 		operatorregistration.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 		
 		signin.sendKeys(Keys.ENTER);
@@ -102,27 +92,21 @@ public class InfoSectionPage {
 
 	public void navitoinsurance() throws Throwable  {
 		insurance.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
 	public void navitouseragreement() throws Throwable  {
 		useragreement.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
 
 	public void navitoagentRegistration() throws Throwable  {
 		agentRegistration.sendKeys(Keys.ENTER);
-		Thread.sleep(2000);
 		ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-		Thread.sleep(2000);
 		driver.switchTo().window(tabs.get(1));
 
 	}
