@@ -1,4 +1,4 @@
-###Automation Testing framework Using Pytest
+###Automation Testing framework 
 [Testing Website URL](https://www.redbus.in/)
 ***
 [Github Repositories URL](https://github.com/priyam1098/RedBusAutomation2021.git)
@@ -86,7 +86,12 @@
 **Refrenced library**
 	*Screenshots jar (for screen shots)
 
-
+**Dependencies in POM
+       -Selenium
+       -Test NG
+       -Extent Reports
+       -Log4j
+       -POI XML    
 
 ***
 ###Steps to Run (on CMD):
@@ -103,7 +108,7 @@
   Run as testNG (if docker= true in conf then it will run in docker )
   
   
-###Steps to Run(on Genkins)
+###Steps to Run(on jenkins)
 - **Step:1**
    Start genkins server go to project
 - **Step:2**
