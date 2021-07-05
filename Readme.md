@@ -84,9 +84,14 @@
 	* ScreenShots
 
 **Refrenced library**
+
+	*STEP 1:Install external jar  
+	mvn install:install-file -Dfile=ScreenshotUtility-0.0.1-SNAPSHOT.jar -DgroupId=ScreenshotUtility -DartifactId=ScreenshotUtility -Dversion=0.0.1-SNAPSHOT -Dpackaging=jar
+	
 	*Screenshots jar (for screen shots)
 
 **Dependencies in POM
+
        -Selenium
        -Test NG
        -Extent Reports
@@ -95,8 +100,10 @@
 
 ***
 ###Steps to Run (on CMD):
+
 - **Step:1**
   Open terminal 
+  
 - **Step:2**
   Now type Command  Run.bat(if docker=true all will be excecute in docker)
 ***
