@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36406" started-at="2021-07-05T08:58:06Z" finished-at="2021-07-05T08:58:43Z">
+  <suite name="Default suite" duration-ms="37499" started-at="2021-07-05T10:00:51Z" finished-at="2021-07-05T10:01:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36406" started-at="2021-07-05T08:58:06Z" finished-at="2021-07-05T08:58:43Z">
+    <test name="Default test" duration-ms="37499" started-at="2021-07-05T10:00:51Z" finished-at="2021-07-05T10:01:29Z">
       <class name="com.redbus.tests.ContactUsTest">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="setExtent" is-config="true" duration-ms="381" started-at="2021-07-05T08:58:06Z" finished-at="2021-07-05T08:58:06Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="setExtent" is-config="true" duration-ms="484" started-at="2021-07-05T10:00:51Z" finished-at="2021-07-05T10:00:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="WebdriverInitilizer()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="WebdriverInitilizer" is-config="true" duration-ms="8988" started-at="2021-07-05T08:58:06Z" finished-at="2021-07-05T08:58:15Z">
+        <test-method status="PASS" signature="WebdriverInitilizer()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="WebdriverInitilizer" is-config="true" duration-ms="6887" started-at="2021-07-05T10:00:51Z" finished-at="2021-07-05T10:00:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebdriverInitilizer -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="openBrowser" is-config="true" duration-ms="1822" started-at="2021-07-05T08:58:15Z" finished-at="2021-07-05T08:58:17Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="openBrowser" is-config="true" duration-ms="4191" started-at="2021-07-05T10:00:58Z" finished-at="2021-07-05T10:01:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="ContactRedBus()[pri:1, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="ContactRedBus" duration-ms="18104" started-at="2021-07-05T08:58:17Z" finished-at="2021-07-05T08:58:35Z">
+        <test-method status="PASS" signature="ContactRedBus()[pri:1, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="ContactRedBus" duration-ms="20045" started-at="2021-07-05T10:01:02Z" finished-at="2021-07-05T10:01:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ContactRedBus -->
-        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="attachScreenShot" is-config="true" duration-ms="17" started-at="2021-07-05T08:58:35Z" finished-at="2021-07-05T08:58:35Z">
+        <test-method status="PASS" signature="attachScreenShot(org.testng.ITestResult)[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="attachScreenShot" is-config="true" duration-ms="16" started-at="2021-07-05T10:01:22Z" finished-at="2021-07-05T10:01:22Z">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenShot -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="closeBrowser" is-config="true" duration-ms="7405" started-at="2021-07-05T08:58:35Z" finished-at="2021-07-05T08:58:43Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="closeBrowser" is-config="true" duration-ms="6277" started-at="2021-07-05T10:01:22Z" finished-at="2021-07-05T10:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="endReport" is-config="true" duration-ms="879" started-at="2021-07-05T08:58:43Z" finished-at="2021-07-05T08:58:44Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.redbus.tests.ContactUsTest@31f9b85e]" name="endReport" is-config="true" duration-ms="939" started-at="2021-07-05T10:01:29Z" finished-at="2021-07-05T10:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
